@@ -11,6 +11,10 @@ const Navbar = memo(() => {
           Helps you track your task down
         </div>
       </div>
+
+      <div className={clsx(style.button)}>
+        Add Task
+      </div>
     </div>
   );
 });

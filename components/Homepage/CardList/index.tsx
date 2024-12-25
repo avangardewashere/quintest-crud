@@ -14,8 +14,8 @@ const CardList = memo(() => {
           </div>
         </div>
         <div className={clsx(style.actions)}>
-          <div className={clsx(style.mark)}></div>
-          <div className={clsx(style.edit)}></div>
+          <div className={clsx(style.button, style.mark)}>D</div>
+          <div className={clsx(style.button, style.edit)}>U</div>
         </div>
       </div>
     </div>

@@ -2,3 +2,46 @@
     width:366rem;
     margin:0 auto;
 }
+
+.card{
+    background:#1571EC;;
+    border-left:10rem solid #1b3889;
+    color:white;
+    padding:10rem 12rem;
+    display:flex;
+    border-radius: 6rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow:1rem 2rem 3rem 0 #5783c090;
+    .details{
+        width:85%;
+    }
+    .task{
+        font-weight:700;
+        font-size:16rem;
+
+    }
+    .description{
+        line-height: 14rem;;
+    }
+    .actions{
+        width:15%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:8rem;
+        .button{
+            background:white;
+            padding:1rem 6rem;
+            border-radius:4rem;
+        }
+        .mark{
+           
+            background-color: rgb(66, 170, 146);
+        }
+        .edit{
+            background-color: rgb(165, 135, 235);
+        }
+    }
+    
+}

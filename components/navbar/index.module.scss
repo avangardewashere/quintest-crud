@@ -9,11 +9,12 @@
   width: 366rem;
   background: #1571ec;
   color: white;
-  box-shadow: 6rem 10rem 10rem 2rem #c2d2e7;
+  box-shadow: 6rem 6rem 8rem 1rem #c2d2e7;
   font-weight: 600;
   border-radius: 12rem;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  position: relative;
   .text {
     text-align: center;
   }
@@ -26,5 +27,17 @@
     line-height: 12rem;
     color: #d4dfff;
     font-weight: 300;
+  }
+
+  .button{
+    position: absolute;
+    right:10rem;
+    font-size:11rem;
+    background:#1f375a90;
+    padding:2rem 6rem;
+    font-weight: 300;
+    border-radius: 4rem;
+    cursor:pointer;
+    user-select: none;;
   }
 }
