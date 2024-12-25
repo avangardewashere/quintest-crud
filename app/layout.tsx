@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import styles from "./index.module.scss"
 import clsx from "clsx";
+import Navbar from "@/components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html className={clsx(styles.htmlTag)} lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+       <Navbar /> 
+        {children}
+        </body>
     </html>
   );
 }
