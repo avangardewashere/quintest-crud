@@ -1,13 +1,30 @@
 .container {
   font-size: 16rem;
-  width: 366rem;
-  background: linear-gradient(to top, skyblue, rgb(101, 164, 165));
-  margin: 6rem auto;
-  color: white;
-  height: 40rem;
   display: flex;
-  font-weight: 600;
   align-items: center;
+  justify-content: center;
+  margin: 12rem auto 18rem;
   padding: 0 6rem;
-  border-radius:12rem;
+  height: 50rem;
+  width: 366rem;
+  background: #1571ec;
+  color: white;
+  box-shadow: 6rem 10rem 10rem 2rem #c2d2e7;
+  font-weight: 600;
+  border-radius: 12rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  .text {
+    text-align: center;
+  }
+  .title {
+    font-size: 18rem;
+  }
+
+  .subtitle {
+    font-size: 12rem;
+    line-height: 12rem;
+    color: #d4dfff;
+    font-weight: 300;
+  }
 }
